@@ -1,0 +1,32 @@
+.banner {
+  color: var(--mainWhite);
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  max-width: 60rem;
+}
+
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: 1rem;
+    padding: 0 ;
+  }
+}
+@media screen and (min-width: 776px) {
+  .title {
+    font-size: 3rem;
+    padding: 0 ;
+  }
+  .resume {
+    font-size: 4rem;
+    letter-spacing: var(--mainSpacing);
+    color: var(--primaryColor);
+    transition: var(--mainTransition);
+  }
+  .resume:hover {
+    color: var(--darkGrey);
+    text-decoration: underline;
+  }
+}
+
+

@@ -1,0 +1,117 @@
+.aboutContent {
+  margin: var(--space-25) 0 var(--space-25);
+}
+
+.aboutContent > h3{
+  margin: var(--space-20) 0; 
+}
+
+.aboutContentFirstSection {
+}
+
+.aboutContentText {
+  float: none;
+}
+
+.aboutContentText > p {
+  margin-bottom: var(--space-20); 
+}
+
+.aboutContentText > p > a {
+  display: inline-block;
+  margin: 0 7px 0 0;
+}
+
+.aboutContentText > p:first-child {
+  margin-top: 0;
+}
+
+
+.aboutContentPic {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.aboutProfile {
+  width: 45%;
+  margin: 0 0 15px 0;
+}
+
+.svg {
+  width: 25PX;
+  margin: 0 7px -5px 7px;
+  height: 25PX;
+  fill: var(--color-gray10)
+}
+
+.sectionTitle {
+  font-size: var(--font-24);
+  color: var(--color-gray9);
+  padding: var(--space-25) 0;
+  border-bottom: 0.5px solid var(--color-gray3);
+}
+
+.aboutContact {
+  display: block;
+  padding: 0;
+}
+
+.aboutContact li {
+  list-style-type: none;
+}
+
+.aboutSkills {
+  width: 90%;
+  height: auto;
+  margin: 25px 0;
+  left: 5%;
+  position: relative;
+  filter: grayscale(100%);
+}
+
+@media (min-width: 30rem) {
+  .aboutContentPic {
+    width: 37%;
+    text-align: inherit;
+  }
+  .aboutProfile {
+    width: 90%;
+    margin: 0 30px 0 0;
+  }
+}
+
+@media (min-width: 48rem) {
+
+  .aboutContent {
+    margin: var(--space-50) 0;
+  }
+
+  .aboutContact {
+    display: inline-flex;
+  }
+
+  .aboutContact li:nth-child(2){
+    display: inline;
+    margin: 0 40px;
+    position: relative;
+  }
+  .aboutContact li:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 1.5px;
+    height: 30px;
+    left: -20px;
+    background-color:var(--color-gray5);
+  }
+  .aboutContact li:nth-child(2)::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 1.5px;
+    height: 30px;
+    right: -20px;
+    background-color:var(--color-gray5);
+  }
+}

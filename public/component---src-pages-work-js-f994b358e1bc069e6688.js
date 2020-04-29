@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{Ofmp:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),c=n("Bl7J");t.default=function(){return r.a.createElement(c.a,null,r.a.createElement("h1",{style:{textAlign:"center",textTransform:"capitalize",marginTop:"4rem"}},"work"))}}}]);
+//# sourceMappingURL=component---src-pages-work-js-f994b358e1bc069e6688.js.map
